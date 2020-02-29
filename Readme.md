@@ -1,1 +1,0 @@
-Dung LINX cho raspberry chạy Labview 2014
