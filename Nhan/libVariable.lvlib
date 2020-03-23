@@ -34,19 +34,6 @@
 		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"F91!!!"=!A!!!!!!#!":!-0````].&lt;X6U=(6U)(.U=GFO:Q!X!0%!!!!!!!!!!1ZH9W^E:5&amp;S=G&amp;Z,G.U&lt;!!A1%!!!@````]!!!Z(,5.P:'5A18*S98EA-A!!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="LibFunction.lvlib" Type="Library" URL="../LibFunction.lvlib"/>
-	<Item Name="state_board_STM1" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">1</Property>
-		<Property Name="Path" Type="Str">/Nhan.lvproj/My Computer/libVariable.lvlib/</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typedefName1" Type="Str">state_board_control.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../controls/state_board_control.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"P;Q!!!"=!A!!!!!!"!&amp;E!]1!!!!!!!!!"&amp;X.U982F8W*P98*E8W.P&lt;H2S&lt;WQO9X2M!$F!&amp;A!%"V*V&lt;GZJ&lt;G=(6W&amp;J&gt;'FO:Q.1&lt;X-%352-21!!%V.U982F8U*P98*E8U.P&lt;H2S&lt;WQ!!1!!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="stateModeDevice" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>

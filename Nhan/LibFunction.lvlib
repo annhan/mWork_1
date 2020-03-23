@@ -8,5 +8,5 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="CheckButtoneTrue.vi" Type="VI" URL="../CheckButtoneTrue.vi"/>
 	<Item Name="LoopControl.vi" Type="VI" URL="../LoopControl.vi"/>
-	<Item Name="SerialUntra.vi" Type="VI" URL="../SerialUntra.vi"/>
+	<Item Name="SerialUntraOOP.vi" Type="VI" URL="../SerialUntraOOP.vi"/>
 </Library>

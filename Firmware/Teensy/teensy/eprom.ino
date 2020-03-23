@@ -1,6 +1,0 @@
-void saveParaMotor(){
-  
-}
-void getParaMotor(){
-  
-}
