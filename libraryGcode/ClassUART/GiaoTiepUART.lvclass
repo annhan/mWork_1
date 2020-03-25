@@ -50,13 +50,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
 	</Item>
 	<Item Name="initClass.vi" Type="VI" URL="../initClass.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(G!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%2!=!!?!!!J%ERJ9H*B=HF(9W^E:3ZM&gt;GRJ9B2(;7&amp;P6'FF=&amp;6"5F1O&lt;(:D&lt;'&amp;T=Q!12WFB&lt;V2J:8"616*5)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!?!$@`````!!18!)!!!!!!!1!%!!!!!1!!!!!!!!!M1(!!$A6*&lt;H.U=A!"!!=8!)!!!!!!!1!%!!!!!1!!!!!!!!&gt;$4UV14V*5!"6!#A!0&gt;'FN:5VJ&lt;'RJ=W6D&lt;WZE!"B!-0````]/&lt;G&amp;N:3!I&gt;7ZO97VF:#E!!"*!=!!3!!%!#A&gt;.:8.T97&gt;F!"J!5!!$!!A!#1!,$7FO=(6U)'.M&gt;8.U:8)!1E"Q!"Y!!#E34'FC=G&amp;S?5&gt;D&lt;W2F,GRW&lt;'FC&amp;%&gt;J97^5;76Q65&amp;36#ZM&gt;G.M98.T!!^(;7&amp;P6'FF=&amp;6"5F1A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!-!!U#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!*)!!!!!!1!/!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;N!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%2!=!!?!!!J%ERJ9H*B=HF(9W^E:3ZM&gt;GRJ9B2(;7&amp;P6'FF=&amp;6"5F1O&lt;(:D&lt;'&amp;T=Q!12WFB&lt;V2J:8"616*5)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!91$$`````$GZB&lt;75A+(6O&lt;G&amp;N:71J!!!31(!!%A!"!!=(476T=W&amp;H:1"#1(!!(A!!+2*-;7*S98*Z2W.P:'5O&lt;(:M;7)52WFB&lt;V2J:8"616*5,GRW9WRB=X-!$U&gt;J97^5;76Q65&amp;36#"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!A!#1)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!EA!!!!!"!!I!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
 	<Item Name="initUART.vi" Type="VI" URL="../initUART.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%\!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%"!=!!?!!!J%ERJ9H*B=HF(9W^E:3ZM&gt;GRJ9B2(;7&amp;P6'FF=&amp;6"5F1O&lt;(:D&lt;'&amp;T=Q!-2WFB&lt;V2J:8!A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$Z!=!!?!!!J%ERJ9H*B=HF(9W^E:3ZM&gt;GRJ9B2(;7&amp;P6'FF=&amp;6"5F1O&lt;(:D&lt;'&amp;T=Q!,2WFB&lt;V2J:8!A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*)!!!!!!1!)!!!!!!</Property>

@@ -22,13 +22,13 @@
 		<Item Name="Control" Type="Folder">
 			<Item Name="stateLoopEvent.ctl" Type="VI" URL="../stateLoopEvent.ctl"/>
 			<Item Name="ButtonWithImage.ctl" Type="VI" URL="../controls/ButtonWithImage.ctl"/>
-			<Item Name="CommandQueue.ctl" Type="VI" URL="../controls/CommandQueue.ctl"/>
+			<Item Name="UartCmdQueueUpdate.ctl" Type="VI" URL="../libraryGcode/control/UartCmdQueueUpdate.ctl"/>
 			<Item Name="state_board_control.ctl" Type="VI" URL="../controls/state_board_control.ctl"/>
 			<Item Name="Control 2.ctl" Type="VI" URL="../Control 2.ctl"/>
 			<Item Name="gCodeControl.ctl" Type="VI" URL="../controls/gCodeControl.ctl"/>
 			<Item Name="mCodeConfig.ctl" Type="VI" URL="../controls/mCodeConfig.ctl"/>
 			<Item Name="UartTypeDataGet.ctl" Type="VI" URL="../libraryGcode/control/UartTypeDataGet.ctl"/>
-			<Item Name="QueueControl.ctl" Type="VI" URL="../controls/QueueControl.ctl"/>
+			<Item Name="QueueCMDandPOS.ctl" Type="VI" URL="../libraryGcode/control/Queue/QueueCMDandPOS.ctl"/>
 			<Item Name="StateMachineAuto.ctl" Type="VI" URL="../ClassStateAuto/control/StateMachineAuto.ctl"/>
 		</Item>
 		<Item Name="LibGcode" Type="Folder">
@@ -62,6 +62,7 @@
 		<Item Name="UartStatusBusy.ctl" Type="VI" URL="../libraryGcode/control/UartStatusBusy.ctl"/>
 		<Item Name="ListMcodeConfig.ctl" Type="VI" URL="../libraryGcode/control/ListMcodeConfig.ctl"/>
 		<Item Name="TypeFirmwareControl.ctl" Type="VI" URL="../libraryGcode/control/TypeFirmwareControl.ctl"/>
+		<Item Name="TypeDataPOS.ctl" Type="VI" URL="../libraryGcode/control/Queue/TypeDataPOS.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>

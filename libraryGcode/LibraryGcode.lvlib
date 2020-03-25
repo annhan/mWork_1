@@ -7,10 +7,14 @@
 		<Item Name="StateMachineAuto.ctl" Type="VI" URL="../control/StateMachineAuto.ctl"/>
 		<Item Name="STATEUART.ctl" Type="VI" URL="../control/STATEUART.ctl"/>
 	</Item>
+	<Item Name="QUEUE" Type="Folder">
+		<Item Name="Untitled 8.vi" Type="VI" URL="../Untitled 8.vi"/>
+	</Item>
 	<Item Name="GiaoTiepUART.lvclass" Type="LVClass" URL="../ClassUART/GiaoTiepUART.lvclass"/>
 	<Item Name="mCode.ctl" Type="VI" URL="../mCode.ctl"/>
 	<Item Name="mCodeControlOut.ctl" Type="VI" URL="../mCodeControlOut.ctl"/>
 	<Item Name="ParameterConf.lvclass" Type="LVClass" URL="../ClassParameter/ParameterConf.lvclass"/>
+	<Item Name="QueueClass.lvclass" Type="LVClass" URL="../ClassQueue/QueueClass.lvclass"/>
 	<Item Name="StateAuto.lvclass" Type="LVClass" URL="../ClassStateAuto/StateAuto.lvclass"/>
 	<Item Name="XuLyStringUART.lvclass" Type="LVClass" URL="../ClassXuLyStringUART/XuLyStringUART.lvclass"/>
 </Library>
