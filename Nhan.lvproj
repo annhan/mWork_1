@@ -20,14 +20,16 @@
 			<Item Name="checkauto.vi" Type="VI" URL="../LibGcode/auto/checkauto.vi"/>
 		</Item>
 		<Item Name="Control" Type="Folder">
+			<Item Name="stateLoopEvent.ctl" Type="VI" URL="../stateLoopEvent.ctl"/>
 			<Item Name="ButtonWithImage.ctl" Type="VI" URL="../controls/ButtonWithImage.ctl"/>
 			<Item Name="CommandQueue.ctl" Type="VI" URL="../controls/CommandQueue.ctl"/>
 			<Item Name="state_board_control.ctl" Type="VI" URL="../controls/state_board_control.ctl"/>
 			<Item Name="Control 2.ctl" Type="VI" URL="../Control 2.ctl"/>
 			<Item Name="gCodeControl.ctl" Type="VI" URL="../controls/gCodeControl.ctl"/>
 			<Item Name="mCodeConfig.ctl" Type="VI" URL="../controls/mCodeConfig.ctl"/>
-			<Item Name="STATE_MK4DUERETURNSTATE.ctl" Type="VI" URL="../controls/STATE_MK4DUERETURNSTATE.ctl"/>
+			<Item Name="UartTypeDataGet.ctl" Type="VI" URL="../libraryGcode/control/UartTypeDataGet.ctl"/>
 			<Item Name="QueueControl.ctl" Type="VI" URL="../controls/QueueControl.ctl"/>
+			<Item Name="StateMachineAuto.ctl" Type="VI" URL="../ClassStateAuto/control/StateMachineAuto.ctl"/>
 		</Item>
 		<Item Name="LibGcode" Type="Folder">
 			<Item Name="gCode.vi" Type="VI" URL="../LibGcode/gCode/gCode.vi"/>
@@ -53,20 +55,17 @@
 		<Item Name="libVariable.lvlib" Type="Library" URL="../Nhan/libVariable.lvlib"/>
 		<Item Name="main.vi" Type="VI" URL="../Nhan/main.vi"/>
 		<Item Name="globalStartAuto.vi" Type="VI" URL="../global/globalStartAuto.vi"/>
-		<Item Name="stateLoopEvent.ctl" Type="VI" URL="../stateLoopEvent.ctl"/>
 		<Item Name="MARLIN.lvclass" Type="LVClass" URL="../ClassTesst/MARLIN.lvclass"/>
 		<Item Name="Untitled 2.vi" Type="VI" URL="../ClassTesst/Untitled 2.vi"/>
-		<Item Name="GiaoTiepUART.lvclass" Type="LVClass" URL="../ClassUART/GiaoTiepUART.lvclass"/>
-		<Item Name="ParameterConf.lvclass" Type="LVClass" URL="../ClassParameter/ParameterConf.lvclass"/>
 		<Item Name="NI_Robotics_AnalyticKinematics.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Kinematics/Analytical/NI_Robotics_AnalyticKinematics.lvlib"/>
+		<Item Name="LibraryGcode.lvlib" Type="Library" URL="../libraryGcode/LibraryGcode.lvlib"/>
+		<Item Name="UartStatusBusy.ctl" Type="VI" URL="../libraryGcode/control/UartStatusBusy.ctl"/>
+		<Item Name="ListMcodeConfig.ctl" Type="VI" URL="../libraryGcode/control/ListMcodeConfig.ctl"/>
+		<Item Name="TypeFirmwareControl.ctl" Type="VI" URL="../libraryGcode/control/TypeFirmwareControl.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
-				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
 				<Item Name="NI_3D Picture Control.lvlib" Type="Library" URL="/&lt;vilib&gt;/picture/3D Picture Control/NI_3D Picture Control.lvlib"/>
 				<Item Name="LVSceneTextAlignment.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVSceneTextAlignment.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -89,6 +88,10 @@
 				<Item Name="NI_Robotics_6R Type 2 Serial Arm Class.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Kinematics/Analytical/6R/Type 2/NI_Robotics_6R Type 2 Serial Arm Class.lvclass"/>
 				<Item Name="NI_Robotics_5R Type 1 Serial Arm Class.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Kinematics/Analytical/5R/Type 1/NI_Robotics_5R Type 1 Serial Arm Class.lvclass"/>
 				<Item Name="NI_AAL_Angle.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_Angle.lvlib"/>
+				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
 			<Item Name="AutoProgramState.vi" Type="VI" URL="../LibGcode/auto/AutoProgramState.vi"/>
 			<Item Name="checkMCodeConfig.vi" Type="VI" URL="../LibGcode/gCode/checkMCodeConfig.vi"/>
@@ -98,7 +101,6 @@
 			<Item Name="SaveFile.vi" Type="VI" URL="../LibGcode/XulyString/SaveFile.vi"/>
 			<Item Name="stateAutoMode.ctl" Type="VI" URL="../controls/stateAutoMode.ctl"/>
 			<Item Name="stateModeDevice.ctl" Type="VI" URL="../controls/stateModeDevice.ctl"/>
-			<Item Name="STATEUART.ctl" Type="VI" URL="../controls/STATEUART.ctl"/>
 			<Item Name="ScaraInverseKinematics.vi" Type="VI" URL="../kinematic/ScaraInverseKinematics.vi"/>
 			<Item Name="Robot_definition.ctl" Type="VI" URL="/C/Users/annha/Desktop/Inverse Kinematic - demo/controls/Robot_definition.ctl"/>
 			<Item Name="Robot_testing_instructions.ctl" Type="VI" URL="../LIN3D/Robot_testing_instructions.ctl"/>
