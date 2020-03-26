@@ -60,8 +60,8 @@
 		<Item Name="NI_Robotics_AnalyticKinematics.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Kinematics/Analytical/NI_Robotics_AnalyticKinematics.lvlib"/>
 		<Item Name="LibraryGcode.lvlib" Type="Library" URL="../libraryGcode/LibraryGcode.lvlib"/>
 		<Item Name="UartStatusBusy.ctl" Type="VI" URL="../libraryGcode/control/UartStatusBusy.ctl"/>
-		<Item Name="ListMcodeConfig.ctl" Type="VI" URL="../libraryGcode/control/ListMcodeConfig.ctl"/>
 		<Item Name="TypeFirmwareControl.ctl" Type="VI" URL="../libraryGcode/control/TypeFirmwareControl.ctl"/>
+		<Item Name="ListMcodeConfig.ctl" Type="VI" URL="../libraryGcode/control/ListMcodeConfig.ctl"/>
 		<Item Name="TypeDataPOS.ctl" Type="VI" URL="../libraryGcode/control/Queue/TypeDataPOS.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

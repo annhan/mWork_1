@@ -16,5 +16,6 @@
 	<Item Name="ParameterConf.lvclass" Type="LVClass" URL="../ClassParameter/ParameterConf.lvclass"/>
 	<Item Name="QueueClass.lvclass" Type="LVClass" URL="../ClassQueue/QueueClass.lvclass"/>
 	<Item Name="StateAuto.lvclass" Type="LVClass" URL="../ClassStateAuto/StateAuto.lvclass"/>
+	<Item Name="XuLyDataDisplay.lvclass" Type="LVClass" URL="../ClassStringGcode/XuLyDataDisplay.lvclass"/>
 	<Item Name="XuLyStringUART.lvclass" Type="LVClass" URL="../ClassXuLyStringUART/XuLyStringUART.lvclass"/>
 </Library>
