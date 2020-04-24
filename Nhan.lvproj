@@ -14,6 +14,11 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="main.vi" Type="VI" URL="../Nhan/main.vi"/>
 		<Item Name="LibraryGcode.lvlib" Type="Library" URL="../libraryGcode/LibraryGcode.lvlib"/>
+		<Item Name="exampleXbox.vi" Type="VI" URL="../xBox360/exampleXbox.vi"/>
+		<Item Name="DetachButton.vi" Type="VI" URL="../xBox360/DetachButton.vi"/>
+		<Item Name="GetXbox.vi" Type="VI" URL="../xBox360/GetXbox.vi"/>
+		<Item Name="LeapMotion.vi" Type="VI" URL="../LeapMotion/Test01/LeapMotion.vi"/>
+		<Item Name="subPos.vi" Type="VI" URL="../LeapMotion/Test01/subPos.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
@@ -28,6 +33,7 @@
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
+				<Item Name="LMH-Leap.lvlib" Type="Library" URL="/&lt;vilib&gt;/MakerHub/Leap/LMH-Leap.lvlib"/>
 			</Item>
 			<Item Name="stateModeDevice.ctl" Type="VI" URL="../libraryGcode/ControlGlobal/stateModeDevice.ctl"/>
 			<Item Name="ScaraInverseKinematics.vi" Type="VI" URL="../kinematic/ScaraInverseKinematics.vi"/>
@@ -36,6 +42,7 @@
 			<Item Name="Robot_creation_loop_data.ctl" Type="VI" URL="/C/Users/annha/Desktop/Inverse Kinematic - demo/controls/Robot_creation_loop_data.ctl"/>
 			<Item Name="Build robot states.ctl" Type="VI" URL="/C/Users/annha/Desktop/Inverse Kinematic - demo/controls/Build robot states.ctl"/>
 			<Item Name="Create Robot State Machine.vi" Type="VI" URL="/C/Users/annha/Desktop/Inverse Kinematic - demo/controls/Create Robot State Machine.vi"/>
+			<Item Name="XInput9_1_0.dll" Type="Document" URL="/C/Windows/System32/XInput9_1_0.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
