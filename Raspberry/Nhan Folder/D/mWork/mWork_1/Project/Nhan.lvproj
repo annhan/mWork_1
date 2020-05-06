@@ -13,6 +13,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="LibraryGcode.lvlib" Type="Library" URL="../libraryGcode/LibraryGcode.lvlib"/>
+		<Item Name="compareArrayData.vi" Type="VI" URL="../TestModbus/compareArrayData.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
@@ -23,6 +24,8 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
 			<Item Name="stateModeDevice.ctl" Type="VI" URL="../libraryGcode/ControlGlobal/stateModeDevice.ctl"/>
+			<Item Name="compareArrayDataCoil.vi" Type="VI" URL="../TestModbus/compareArrayDataCoil.vi"/>
+			<Item Name="compareArrayDataHold.vi" Type="VI" URL="../TestModbus/compareArrayDataHold.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -103,19 +106,25 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="DetachButton.vi" Type="VI" URL="../xBox360/DetachButton.vi"/>
-		<Item Name="exampleXbox.vi" Type="VI" URL="../xBox360/exampleXbox.vi"/>
-		<Item Name="GetXbox.vi" Type="VI" URL="../xBox360/GetXbox.vi"/>
-		<Item Name="initQueueAndEvent.vi" Type="VI" URL="../ModbusLibHMI/initQueueAndEvent.vi"/>
-		<Item Name="LeapMotion.vi" Type="VI" URL="../LeapMotion/Test01/LeapMotion.vi"/>
+		<Item Name="ModbusLib" Type="Folder">
+			<Item Name="compareArrayDataHold.vi" Type="VI" URL="../TestModbus/compareArrayDataHold.vi"/>
+			<Item Name="initQueueAndEvent.vi" Type="VI" URL="../ModbusLibHMI/initQueueAndEvent.vi"/>
+			<Item Name="mosbus.vi" Type="VI" URL="../ModbusLibHMI/mosbus.vi"/>
+			<Item Name="stateModbus.ctl" Type="VI" URL="../ModbusLibHMI/stateModbus.ctl"/>
+		</Item>
+		<Item Name="Tesst" Type="Folder">
+			<Item Name="DetachButton.vi" Type="VI" URL="../xBox360/DetachButton.vi"/>
+			<Item Name="exampleXbox.vi" Type="VI" URL="../xBox360/exampleXbox.vi"/>
+			<Item Name="GetXbox.vi" Type="VI" URL="../xBox360/GetXbox.vi"/>
+			<Item Name="globalTestRasp.vi" Type="VI" URL="../TestModbus/globalTestRasp.vi"/>
+			<Item Name="LeapMotion.vi" Type="VI" URL="../LeapMotion/Test01/LeapMotion.vi"/>
+			<Item Name="ModbusWithThread.vi" Type="VI" URL="../TestModbus/ModbusWithThread.vi"/>
+			<Item Name="UART.vi" Type="VI" URL="../Raspberry/Bai1UART/UART.vi"/>
+			<Item Name="Write to Text File and Read from Text File.vi" Type="VI" URL="../TestLinuxReadWriteFile/Write to Text File and Read from Text File.vi"/>
+		</Item>
 		<Item Name="LibraryGcode.lvlib" Type="Library" URL="../libraryGcode/LibraryGcode.lvlib"/>
 		<Item Name="main.vi" Type="VI" URL="../Nhan/main.vi"/>
-		<Item Name="ModbusWithThread.vi" Type="VI" URL="../TestModbus/ModbusWithThread.vi"/>
-		<Item Name="mosbus.vi" Type="VI" URL="../ModbusLibHMI/mosbus.vi"/>
-		<Item Name="stateModbus.ctl" Type="VI" URL="../ModbusLibHMI/stateModbus.ctl"/>
 		<Item Name="subPos.vi" Type="VI" URL="../LeapMotion/Test01/subPos.vi"/>
-		<Item Name="UART.vi" Type="VI" URL="../Raspberry/Bai1UART/UART.vi"/>
-		<Item Name="Write to Text File and Read from Text File.vi" Type="VI" URL="../TestLinuxReadWriteFile/Write to Text File and Read from Text File.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="API Main.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Wrapper/API Main.lvlib"/>
@@ -200,6 +209,8 @@ AddOutputFilter chunkFilter
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Build robot states.ctl" Type="VI" URL="../../../../../C/Users/annha/Desktop/Inverse Kinematic - demo/controls/Build robot states.ctl"/>
+			<Item Name="compareArrayData.vi" Type="VI" URL="../TestModbus/compareArrayData.vi"/>
+			<Item Name="compareArrayDataCoil.vi" Type="VI" URL="../TestModbus/compareArrayDataCoil.vi"/>
 			<Item Name="Create Robot State Machine.vi" Type="VI" URL="../../../../../C/Users/annha/Desktop/Inverse Kinematic - demo/controls/Create Robot State Machine.vi"/>
 			<Item Name="liblinxdevice.dll" Type="Document" URL="liblinxdevice.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
